@@ -1,0 +1,11 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: zhangRabbitmq-provider
+  rabbitmq:
+    host: 192.168.200.129
+    port: 5672
+    username: root
+    password: root
+    virtual-host: /
